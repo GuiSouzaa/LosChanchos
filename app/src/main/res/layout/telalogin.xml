@@ -40,6 +40,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="300dp"
         android:layout_height="75dp"
+        app:endIconMode="clear_text"
+
         android:background="@drawable/rounded_background"
         android:backgroundTint="@color/inputnome"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,8 +53,9 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="300dp"
+            android:layout_height="75dp"
             android:background="@android:color/transparent"
-            android:layout_height="75dp" />
+            android:inputType="text" />
 
 
     </com.google.android.material.textfield.TextInputLayout>
