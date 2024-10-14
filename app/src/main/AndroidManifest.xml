@@ -13,6 +13,18 @@
         android:theme="@style/Theme.ProjetoChanchos"
         tools:targetApi="31">
         <activity
+            android:name=".vagalumet7"
+            android:exported="false" />
+        <activity
+            android:name=".elementost6"
+            android:exported="false" />
+        <activity
+            android:name=".Cidadaopromundot5"
+            android:exported="false" />
+        <activity
+            android:name=".roupaT4"
+            android:exported="false" />
+        <activity
             android:name=".tela3back"
             android:exported="false" />
         <activity
