@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FBF8E9"
-    tools:context=".roupaT4">
+    tools:context=".alimento">
+
 
     <ImageView
         android:id="@+id/imagegoodtruck"
@@ -38,7 +39,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppisregular"
         android:gravity="center"
-        android:text="Instituto \n 5 Elementos"
+        android:text="Good Truck"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,7 +47,7 @@
         app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textalimento"
-        app:layout_constraintVertical_bias="0.477" />
+        app:layout_constraintVertical_bias="0.488" />
 
     <TextView
         android:id="@+id/textView5"
@@ -54,27 +55,30 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppisregular"
         android:gravity="center"
-        android:text="Vagalume"
+        android:text="Cão sem fome"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textalimento"
-        app:layout_constraintVertical_bias="0.696" />
+        app:layout_constraintVertical_bias="0.728" />
 
     <TextView
         android:id="@+id/textalimento"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:fontFamily="@font/poppisregular"
-        android:text="Roupas"
+        android:gravity="center"
+        android:text="Alimento"
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.194" />
@@ -97,15 +101,15 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppisregular"
         android:gravity="center"
-        android:text="Cidadão \n Pró-mundo"
+        android:text="Banco de \n Alimentos"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textalimento"
-        app:layout_constraintVertical_bias="0.234" />
+        app:layout_constraintVertical_bias="0.241" />
 
     <ImageView
         android:id="@+id/imagealimento"
@@ -118,4 +122,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textalimento"
         app:layout_constraintVertical_bias="0.248"
         app:srcCompat="@drawable/btnadd" />
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

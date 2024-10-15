@@ -3,18 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="#FBF8E9"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FBF8E9"
-    tools:context=".elementost6">
-
+    tools:context=".goodtruck">
 
     <TextView
         android:id="@+id/textcaosemfome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppisregular"
-        android:text="Instituto 5 Elementos"
+        android:text="Good truck"
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +41,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppisregular"
         android:gravity="center"
-        android:text="Atuação: Nacional \n Oferece cursos e oficinas de\n Educação para a\n Sustentabilidade,\n sensibilizando diversos \n públicos por meio de\n atividades práticas e \n audiovisuais"
+        android:text="Atuação: Nacional \n Nosso objetivo é resgatar \n alimentos que seriam \n desperdiçados e destiná-los a \n comunidades vulneráveis, \n levando comida de onde sobra \n para onde falta."
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -95,5 +94,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.906" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

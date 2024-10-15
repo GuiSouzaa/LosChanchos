@@ -9,7 +9,7 @@
     tools:context=".Cidadaopromundot5">
 
     <TextView
-        android:id="@+id/text5elementos"
+        android:id="@+id/textcaosemfome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppisregular"
@@ -36,7 +36,7 @@
         app:srcCompat="@drawable/arrow_back" />
 
     <TextView
-        android:id="@+id/textViewt6"
+        android:id="@+id/textprincipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppisregular"
@@ -47,7 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text5elementos"
+        app:layout_constraintTop_toBottomOf="@+id/textcaosemfome"
         app:layout_constraintVertical_bias="0.097" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewt6"
+        app:layout_constraintTop_toBottomOf="@+id/textprincipal"
         app:layout_constraintVertical_bias="0.224">
 
         <com.google.android.material.textfield.TextInputEditText

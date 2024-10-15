@@ -6,15 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FBF8E9"
-    tools:context=".elementost6">
-
+    tools:context=".tucca">
 
     <TextView
         android:id="@+id/textcaosemfome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppisregular"
-        android:text="Instituto 5 Elementos"
+        android:text="TUCCA "
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,11 +37,11 @@
 
     <TextView
         android:id="@+id/textprincipal"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppisregular"
         android:gravity="center"
-        android:text="Atuação: Nacional \n Oferece cursos e oficinas de\n Educação para a\n Sustentabilidade,\n sensibilizando diversos \n públicos por meio de\n atividades práticas e \n audiovisuais"
+        android:text="Atuação: São Paulo \n A Associação para Crianças e Adolescentes com Câncer visa aumentar as taxas de cura e \n atingir 100% de cura do câncer infantojuvenil, melhorando a qualidade de vida dos pacientes."
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

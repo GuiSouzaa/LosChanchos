@@ -13,6 +13,33 @@
         android:theme="@style/Theme.ProjetoChanchos"
         tools:targetApi="31">
         <activity
+            android:name=".endpage"
+            android:exported="false" />
+        <activity
+            android:name=".caosemfome"
+            android:exported="false" />
+        <activity
+            android:name=".goodtruck"
+            android:exported="false" />
+        <activity
+            android:name=".bancodealimentos"
+            android:exported="false" />
+        <activity
+            android:name=".alimento"
+            android:exported="false" />
+        <activity
+            android:name=".borboletaazul"
+            android:exported="false" />
+        <activity
+            android:name=".sementessaude"
+            android:exported="false" />
+        <activity
+            android:name=".tucca"
+            android:exported="false" />
+        <activity
+            android:name=".telasaude"
+            android:exported="false" />
+        <activity
             android:name=".vagalumet7"
             android:exported="false" />
         <activity

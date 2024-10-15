@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="#FBF8E9"
-    tools:context=".elementost6">
-
+    android:layout_height="match_parent"
+    tools:context=".bancodealimentos">
 
     <TextView
         android:id="@+id/textcaosemfome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppisregular"
-        android:text="Instituto 5 Elementos"
+        android:text="Banco de Alimentos"
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,11 +37,11 @@
 
     <TextView
         android:id="@+id/textprincipal"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppisregular"
         android:gravity="center"
-        android:text="Atuação: Nacional \n Oferece cursos e oficinas de\n Educação para a\n Sustentabilidade,\n sensibilizando diversos \n públicos por meio de\n atividades práticas e \n audiovisuais"
+        android:text="Atuação: São Paulo \n A associação recolhe \n alimentos fora do valor \n comercial, mas consumíveis, e \n os distribui a entidades sociais, contribuindo para a nutrição \n de milhares de pessoas."
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -95,5 +94,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.906" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
